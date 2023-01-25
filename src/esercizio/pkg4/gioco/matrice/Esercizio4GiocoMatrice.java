@@ -29,7 +29,7 @@ public class Esercizio4GiocoMatrice extends JFrame {
                 this.add(A[i][j]);
                 A[i][j].setBounds(10 + (45 * i), 30 + (35 * j), 40, 30);
                 A[i][j].addActionListener(S1);
-                    B[i][j] = new JLabel("lol");
+                    B[i][j] = new JLabel("a");
                 this.add(B[i][j]);
                 B[i][j].setBounds(10 + (45 * i), 30 + (35 * j), 40, 30);
 
@@ -59,6 +59,7 @@ public class Esercizio4GiocoMatrice extends JFrame {
                 for (i = 0; i < 10; i++) {
                     for (j = 0; j < 10; j++) {
                         A[i][j].setVisible(true);
+                         B[i][j].setVisible(true);
                     }
                 }
             }
